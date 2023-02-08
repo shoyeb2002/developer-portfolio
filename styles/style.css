@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*navigation style */
+.primary-color{
+    color: orangered;
+}
+.btn-primary{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 180px;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 25px;
+}
