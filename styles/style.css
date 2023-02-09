@@ -2,20 +2,48 @@
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background: #fdf4ee;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    
+}
 
 /*navigation style */
 .primary-color{
     color: orangered;
 }
+
+/* button styles starts */
 .btn-primary{
-    background-color: orangered;
+    height: 54px;
+    background: orangered;
+    font-size: 20px;
+    font-weight: 700px;
     color: white;
+    padding: 12px 20px;
     border: none;
+    border-radius: 5px;
 }
+.btn-contact{
+    height: 54px;
+    border: 1px solid rgb(243, 116, 70);
+    background-color: white;
+    color: rgb(243, 116, 70) ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+/* buttons stylses end */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 180px;
+    margin: 0px 180px;
+    padding-top: 50px;
+    
 }
 .nav-title{
     font-weight: 800px;
@@ -23,8 +51,69 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-left: 25px;
+}
+/* banner section styles */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 180px;
+}
+.bnr-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+}
+.bnr-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section style starts */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about{
+    margin-top: 130px;
+    background: #fdf4ee;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* .section-description{
+    color: #757575;
+    font-size: 18px;
+} */
+
+/* table style */
+td{
+   padding: 0px 10px;
+   font-weight: bold;
+}
+th{
+    color: #757575;
+    font-size: 20px;
+}
+
+/* what i do section */
+.what-do{
+    margin-top: 130px;
+    padding: 0px 150px;
+    text-align: center;
 }
